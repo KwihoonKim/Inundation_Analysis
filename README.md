@@ -50,24 +50,43 @@ Gravity drainage through culvert/weir
 Pump-assisted discharge scenarios
 
 3. Project Structure
-Agricultural Watershed_drainage_sim/
+   
+   
+Agricultural Watershed_drainage_sim
+
+
 │
+
 ├── input/
+
 │   ├── IDF_coef.txt
+
 │   ├── variable.txt
+
 │   └── volume_Flooding_A.txt
 │
+
 ├── src/
+
+
 │   ├── config.py
+
 │   ├── io.py
+
 │   ├── rainfall.py
+
 │   ├── runoff.py
+
 │   ├── inundation.py
+
 │   ├── result.py
+
 │   └── simulator.py
 │
+
 └── main.py
-4. How to Run
+
+5. How to Run
 python main.py
 
 Simulation parameters are defined in:
