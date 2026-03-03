@@ -5,7 +5,7 @@ A modular Python framework for rainfall–runoff simulation and pump-assisted Ag
 
 This project integrates:
 
-IDF-based design rainfall
+IDF-based / Huff-based design rainfall
 
 NRCS-CN effective rainfall method
 
@@ -17,8 +17,9 @@ Pump capacity scenario analysis
 
 The framework evaluates inundation risk under varying rainfall durations and pumping capacities.
 
-1. Overview
-
+<1. Overview>
+===
+   
 Agricultural Watershed drainage systems must be evaluated under multiple rainfall durations and pumping scenarios.
 This simulation engine performs:
 
@@ -28,7 +29,8 @@ The final output is a 2D response matrix:
 
 Rainfall Duration × Pump Capacity → Maximum Storage / Inflow
 
-2. Model Components
+<2. Model Components>
+===
 Rainfall
 
 IDF curve-based design rainfall
@@ -49,7 +51,8 @@ Gravity drainage through culvert/weir
 
 Pump-assisted discharge scenarios
 
-3. Project Structure
+<3. Project Structure>
+===
    
    
 Agricultural Watershed_drainage_sim
@@ -86,7 +89,8 @@ Agricultural Watershed_drainage_sim
 
 └── main.py
 
-5. How to Run
+<4. How to Run>
+===
 python main.py
 
 Simulation parameters are defined in:
@@ -101,7 +105,8 @@ SimulationConfig(
     pump_max=40,
     max_duration=48
 )
-5. Output
+<5. Output>
+===
 
 Results are saved in:
 
@@ -118,7 +123,8 @@ Matrix format:
 Rows → Rainfall Duration (hr)
 Columns → Pump Capacity
 
-6. Example Analysis
+<6. Example Analysis>
+===
 
 Maximum storage heatmap:
 
@@ -132,7 +138,8 @@ plt.colorbar(label="Max Storage (m3)")
 plt.xlabel("Pump Capacity")
 plt.ylabel("Rainfall Duration (hr)")
 plt.show()
-7. Applications
+<7. Applications>
+===
 
 Agricultural Watershed flood risk assessment
 
@@ -142,7 +149,8 @@ Drainage system planning
 
 Sensitivity analysis of rainfall duration
 
-8. Future Extensions
+<8. Future Extensions>
+===
 
 Probabilistic rainfall scenarios
 
