@@ -79,9 +79,9 @@ This project integrates:
 <_Model Components_>
 
       File	                  Description
-      IDF_coef.txt	      IDF equation coefficients
-      variable.txt	      Watershed parameters
-      volume_Flooding_A.txt	Storage-volume relationship
+      IDF_coef.txt	            IDF equation coefficients
+      variable.txt	            Watershed parameters
+      volume_Flooding_A.txt      	Storage-volume relationship
 
 
 Simulation parameters are defined in:
