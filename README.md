@@ -42,10 +42,10 @@ This project integrates:
    
 Agricultural Watershed_drainage_simulation
 
-├── input/
-│   ├── IDF_coef.txt
-│   ├── variable.txt
-│   └── volume_Flooding_A.txt
+├── input/      
+│   ├── IDF_coef.txt      
+│   ├── variable.txt      
+│   └── volume_Flooding_A.txt      
 │
 ├── src/
 │   ├── config.py
