@@ -17,6 +17,8 @@ This project integrates:
 - Pump-assisted drainage scenario analysis
 - Duration–Pump Capacity sensitivity analysis
 
+<_Modeling Workflow_>
+Design Rainfall │ ▼ Temporal Distribution │ ▼ Effective Rainfall (NRCS-CN Method) │ ▼ Runoff Hydrograph (Synthetic UH) │ ▼ Storage Routing │ ├── Gravity Drainage │ └── Pump Drainage │ ▼ Maximum Storage & Flooding Assessment
 <1. Overview>
 ===
    
