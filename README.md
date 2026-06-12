@@ -8,14 +8,14 @@ The framework evaluates flood and inundation responses under various rainfall du
 This project integrates:
 
 Features
-IDF-based design rainfall generation
-Huff temporal rainfall distribution
-NRCS Curve Number (CN) effective rainfall estimation
-Synthetic Unit Hydrograph runoff simulation
-Storage–outflow routing
-Gravity drainage calculation
-Pump-assisted drainage scenario analysis
-Duration–Pump Capacity sensitivity analysis
+- IDF-based design rainfall generation
+- Huff temporal rainfall distribution
+- NRCS Curve Number (CN) effective rainfall estimation
+- Synthetic Unit Hydrograph runoff simulation
+- Storage–outflow routing
+- Gravity drainage calculation
+- Pump-assisted drainage scenario analysis
+- Duration–Pump Capacity sensitivity analysis
 
 <1. Overview>
 ===
