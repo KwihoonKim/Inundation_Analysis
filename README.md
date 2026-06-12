@@ -83,19 +83,19 @@ This project integrates:
       variable.txt	                 Watershed parameters
       volume_Flooding_A.txt      	Storage-volume relationship
 
+<_How to Run_>
+      python main.py
 
-Simulation parameters are defined in:
+      Simulation settings are defined in:
 
-src/config.py
+      SimulationConfig(
+          var="a",
+          r=0.875,
+          pump_max=40,
+          max_duration=48
+      )
 
-Example:
 
-SimulationConfig(
-    var="a",
-    r=0.875,
-    pump_max=40,
-    max_duration=48
-)
 
 <5. Output>
 ===
