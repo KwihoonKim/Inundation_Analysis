@@ -37,7 +37,6 @@ This project integrates:
 <_Project Structure_>
 
 
-<3. Project Structure>
 ===
    
    
