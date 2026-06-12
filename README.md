@@ -58,15 +58,16 @@ This project integrates:
 
 
 <_Model Components_>
-      1. Rainfall Module
+
+      a. Rainfall Module
       - IDF curve-based design storm generation
       - Huff temporal rainfall distribution
       - Multiple rainfall durations
-      2. Runoff Module
+      b. Runoff Module
       - NRCS Curve Number (CN) method
       - Effective rainfall estimation
       - Synthetic Unit Hydrograph transformation
-      3. Drainage & Inundation Module
+      c. Drainage & Inundation Module
       - Storage–elevation relationship
       - Gravity drainage through outlet structures
       - Pump-assisted discharge scenarios
