@@ -64,10 +64,12 @@ This project integrates:
       - IDF curve-based design storm generation
       - Huff temporal rainfall distribution
       - Multiple rainfall durations
+      
       b. Runoff Module
       - NRCS Curve Number (CN) method
       - Effective rainfall estimation
       - Synthetic Unit Hydrograph transformation
+      
       c. Drainage & Inundation Module
       - Storage–elevation relationship
       - Gravity drainage through outlet structures
@@ -75,9 +77,9 @@ This project integrates:
       - Dynamic storage routing
 
 <_Model Components_>
-      File	      Description
-      IDF_coef.txt	IDF equation coefficients
-      variable.txt	Watershed parameters
+      File	                  Description
+      IDF_coef.txt	      IDF equation coefficients
+      variable.txt	      Watershed parameters
       volume_Flooding_A.txt	Storage-volume relationship
 
 
