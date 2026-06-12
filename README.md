@@ -97,23 +97,21 @@ This project integrates:
 
 
 
-<5. Output>
-===
+<_Output_>
+      
+      Results are stored in:
 
-Results are saved in:
+      output/
 
-output/
+      Generated files:
 
-Files:
+      max_storage.txt
+      total_inflow.txt
 
-max_storage.txt
-
-total_inflow.txt
-
-Matrix format:
-
-Rows → Rainfall Duration (hr)
-Columns → Pump Capacity
+      Matrix Structure
+      
+      Rows            	Columns
+      Rainfall Duration (hr)	Pump Capacity
 
 <6. Example Analysis>
 ===
