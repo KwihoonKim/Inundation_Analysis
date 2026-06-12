@@ -57,6 +57,7 @@ This project integrates:
       └── main.py
 
 
+
 <_Model Components_>
 
       a. Rainfall Module
@@ -72,6 +73,12 @@ This project integrates:
       - Gravity drainage through outlet structures
       - Pump-assisted discharge scenarios
       - Dynamic storage routing
+
+<_Model Components_>
+      File	      Description
+      IDF_coef.txt	IDF equation coefficients
+      variable.txt	Watershed parameters
+      volume_Flooding_A.txt	Storage-volume relationship
 
 
 Simulation parameters are defined in:
