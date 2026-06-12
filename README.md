@@ -2,8 +2,9 @@
 <_Agricultural Watershed Drainage Simulation Framework_>
 ===
 
-A modular Python framework for rainfall–runoff simulation and pump-assisted Agricultural Watershed drainage analysis.
+A modular Python framework for rainfall–runoff simulation and pump-assisted agricultural watershed drainage analysis.
 
+The framework evaluates flood and inundation responses under various rainfall durations and pumping capacities by integrating hydrologic runoff generation and drainage routing processes.
 This project integrates:
 
 IDF-based / Huff-based design rainfall
