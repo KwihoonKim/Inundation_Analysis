@@ -7,17 +7,15 @@ A modular Python framework for rainfall–runoff simulation and pump-assisted ag
 The framework evaluates flood and inundation responses under various rainfall durations and pumping capacities by integrating hydrologic runoff generation and drainage routing processes.
 This project integrates:
 
-IDF-based / Huff-based design rainfall
-
-NRCS-CN effective rainfall method
-
-Synthetic unit hydrograph
-
+Features
+IDF-based design rainfall generation
+Huff temporal rainfall distribution
+NRCS Curve Number (CN) effective rainfall estimation
+Synthetic Unit Hydrograph runoff simulation
 Storage–outflow routing
-
-Pump capacity scenario analysis
-
-The framework evaluates inundation risk under varying rainfall durations and pumping capacities.
+Gravity drainage calculation
+Pump-assisted drainage scenario analysis
+Duration–Pump Capacity sensitivity analysis
 
 <1. Overview>
 ===
