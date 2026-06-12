@@ -111,50 +111,48 @@ This project integrates:
 
       Matrix Structure
       
-      Rows            	Columns
+      Rows            	      Columns
       Rainfall Duration (hr)	Pump Capacity
 
-<6. Example Analysis>
-===
+<_Example Visualization_>
 
-Maximum storage heatmap:
+      import numpy as np
+      import matplotlib.pyplot as plt
 
-import numpy as np
-import matplotlib.pyplot as plt
+      storage = np.loadtxt("output/max_storage.txt")
 
-storage = np.loadtxt("output/max_storage.txt")
+      plt.imshow(storage, aspect="auto")
+      plt.colorbar(label="Maximum Storage (m³)")
+      plt.xlabel("Pump Capacity")
+      plt.ylabel("Rainfall Duration (hr)")
+      plt.show()
 
-plt.imshow(storage, aspect="auto")
-plt.colorbar(label="Max Storage (m3)")
-plt.xlabel("Pump Capacity")
-plt.ylabel("Rainfall Duration (hr)")
-plt.show()
-<7. Applications>
-===
+<_Applications_>
 
-Agricultural Watershed flood risk assessment
+      - Agricultural watershed flood-risk assessment
+      - Pump station design
+      - Drainage system planning
+      - Climate resilience evaluation
+      - Scenario-based infrastructure assessment
 
-Pump design optimization
+<_Future Development_>
 
-Drainage system planning
+      - Probabilistic rainfall scenarios
+      - Climate change-adjusted IDF curves
+      - Multi-watershed simulation
+      - Automatic pump optimization
+      - GIS integration
+      
+<_Citation_>
 
-Sensitivity analysis of rainfall duration
+      If you use this framework for research purposes, please cite the associated publication (if available).
 
-<8. Future Extensions>
-===
+<_Author_>
+      
+      Kwihoon Kim
+      Ph.D. in Agricultural Engineering  
 
-Probabilistic rainfall scenarios
+<_License_>
+      
+      Developed for research applications in Agricultural Watershed hydrology and drainage system design.
 
-Multi-site simulation
-
-Optimization-based pump sizing
-
-Climate change IDF adjustment
-
-Author
-
-Developed for research applications in Agricultural Watershed hydrology and drainage system design.
-
-License
-
-For academic and research purposes.
