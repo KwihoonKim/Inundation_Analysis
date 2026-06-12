@@ -29,7 +29,7 @@ This project integrates:
       Runoff Hydrograph (Synthetic UH)
             ↓
       Storage Routing
-      ├── Gravity Drainage
+      ├── Sluice Gate Drainage
       └── Pump Drainage
             ↓
       Flooding Assessment
