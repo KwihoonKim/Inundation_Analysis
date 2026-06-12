@@ -34,48 +34,14 @@ This project integrates:
             ↓
       Flooding Assessment
       
-<1. Overview>
-===
-   
-Agricultural Watershed drainage systems must be evaluated under multiple rainfall durations and pumping scenarios.
-This simulation engine performs:
+<_Project Structure_>
 
-Design Rainfall → Effective Rainfall → Runoff Hydrograph → Storage Routing → Pump Discharge Analysis
-
-The final output is a 2D response matrix:
-
-Rainfall Duration × Pump Capacity → Maximum Storage / Inflow
-
-<2. Model Components>
-===
-Rainfall
-
-IDF curve-based design rainfall
-
-Temporal rainfall distribution
-
-Runoff Generation
-
-NRCS Curve Number (CN) method
-
-Synthetic unit hydrograph (NRCS Type III)
-
-Inundation Simulation
-
-Storage–elevation relationship
-
-Gravity drainage through culvert/weir
-
-Pump-assisted discharge scenarios
 
 <3. Project Structure>
 ===
    
    
-Agricultural Watershed_drainage_sim
-
-
-│
+Agricultural Watershed_drainage_simulation
 
 ├── input/
 
