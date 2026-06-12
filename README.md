@@ -17,6 +17,7 @@ This project integrates:
 - Pump-assisted drainage scenario analysis
 - Duration–Pump Capacity sensitivity analysis
 
+
 <_Modeling Workflow_>
 
       Design Rainfall
@@ -34,6 +35,7 @@ This project integrates:
             ↓
       Flooding Assessment
       
+
 <_Project Structure_>
 
       Agricultural Watershed_drainage_simulation
@@ -54,9 +56,22 @@ This project integrates:
       │
       └── main.py
 
-<4. How to Run>
-===
-python main.py
+
+<_Model Components_>
+      1. Rainfall Module
+      - IDF curve-based design storm generation
+      - Huff temporal rainfall distribution
+      - Multiple rainfall durations
+      2. Runoff Module
+      - NRCS Curve Number (CN) method
+      - Effective rainfall estimation
+      - Synthetic Unit Hydrograph transformation
+      3. Drainage & Inundation Module
+      - Storage–elevation relationship
+      - Gravity drainage through outlet structures
+      - Pump-assisted discharge scenarios
+      - Dynamic storage routing
+
 
 Simulation parameters are defined in:
 
